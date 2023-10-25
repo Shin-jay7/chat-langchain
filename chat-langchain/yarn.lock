@@ -857,6 +857,7 @@ __metadata:
     autoprefixer: "npm:^10"
     eslint: "npm:^8"
     eslint-config-next: "npm:13.5.6"
+    eslint-config-prettier: "npm:^9.0.0"
     next: "npm:13.5.6"
     postcss: "npm:^8"
     react: "npm:^18"
@@ -1286,6 +1287,17 @@ __metadata:
     typescript:
       optional: true
   checksum: 819d3be8007ae062217857669c1ef616f7e30ce358ec044483f235f4246c02b38de740010cfd8e0deacf7cc323f5de9a7ccb1e3271c851d205841eff894c4729
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "eslint-config-prettier@npm:9.0.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: bc1f661915845c631824178942e5d02f858fe6d0ea796f0050d63e0f681927b92696e81139dd04714c08c3e7de580fd079c66162e40070155ba79eaee78ab5d0
   languageName: node
   linkType: hard
 
